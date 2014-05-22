@@ -1,0 +1,20 @@
+.espacio1{
+    height: 30px;
+}
+#menu{
+    width:100%;
+    height: 200px;
+    display: none;
+    padding:5px;
+    border:2px solid silver;
+    background-color:#019CDE;
+}
+.hola a{
+    font-size: 10px;
+    font-weight: bold;
+    color:white;
+    font-family: verdana;
+}
+a:hover{
+    text-decoration:none;
+}
