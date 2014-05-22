@@ -50,7 +50,7 @@
 
 		function updateSize() {
 			var windowW = $(window).width();
-			var windowH = $(window).height();
+			var windowH = '400';
 			var windowAspect = windowW/windowH;
 			if (windowAspect < mediaAspect) {
 				// taller
