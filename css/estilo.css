@@ -127,3 +127,6 @@ video{
 .derecha{
     margin-right: 20px;
 }
+.cajaIconosMedio{
+    border-bottom: 1px silver solid;
+}
