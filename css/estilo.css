@@ -12,11 +12,13 @@
     border:2px solid silver;
     background-color:#019CDE;
 }
-
+.lista li{
+    width: 19%;
+}
 .links{
-    font-family: 'Source Sans Pro';
-    font-size: 17px;
-    color:#444444;
+    font-family: Lato;
+    font-size: 15px;
+    color:grey;
 }
 .links:hover,
 .links:focus,
@@ -36,7 +38,7 @@ a:hover{
     font-size: 13px;
 
 }
-.caja1 .row{
+.caja1 ul{
     border-right: 1px silver solid;
 }
 .enlaceCentro{
@@ -121,8 +123,14 @@ video{
 .cajaBoton{
     padding-left: 0px;
 }
-
-//Caja azul
+//barra debajo del video
+.derecha{
+    margin-right: 20px;
+}
+.cajaIconosMedio{
+    border-bottom: 1px silver solid;
+}
+//texto azul 
 .azul{
     background-color:  #019CDE;
     padding: 15px;
@@ -136,6 +144,7 @@ video{
    color:white;
    font-weight: bold;
    text-decoration: none;
+
 }
 
 //barra debajo del video
@@ -144,5 +153,6 @@ video{
 }
 .cajaIconosMedio{
     border-bottom: 1px silver solid;
+
 
 }
