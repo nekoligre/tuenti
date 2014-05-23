@@ -1,3 +1,7 @@
+body{
+    font-family:  'Source Sans Pro';
+    letter-spacing: 0.4px;
+}
 .espacio1{
     height: 30px;
 }
@@ -147,6 +151,7 @@ video{
     color:white;
     font-family:  'Source Sans Pro';
     letter-spacing: 0.4px;
+    
 }
 #azul a{
    color:white;
@@ -154,7 +159,10 @@ video{
    text-decoration: none;
 
 }
-
+#azul>div{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
 //barra debajo del video
 .derecha{
     margin-right: 20px;
@@ -165,23 +173,45 @@ video{
 
 }
 
-.imagenFondo{
+.imagenFondoA{
     background-image: url('../img/fondoA.jpg');
     padding-left:100px;
-    padding:15px;
     color:white;
     font-family:  'Source Sans Pro';
     letter-spacing: 0.4px;
-  
+    opacity: 0.7;
 }
-.imagenFondo a{
+.imagenFondoA a{
    color:white;
    font-weight: bold;
    text-decoration: none;
 
 }
-.imagenFondo>div{
+.primero{
+    border-right: 1px solid white;
+}
+.imagenFondoA>div{
     margin-top: 13%;
-    margin-bottom: 5%%;
-    margin-left: 8%;
+    margin-left: 7%;
+    opacity: 1.7;
+}
+
+.imagenFondoB{
+    background-image: url('../img/fondoB.jpg');
+    padding-left:100px;
+    color:white;
+    font-family:  'Source Sans Pro';
+    letter-spacing: 0.4px;
+    opacity: 0.7;
+}
+.imagenFondoB {
+   color:black;
+   font-weight: bold;
+   text-decoration: none;
+
+}
+.imagenFondoB>div{
+    margin-top: 13%;
+    margin-left: 7%;
+    opacity: 1.7;
 }
