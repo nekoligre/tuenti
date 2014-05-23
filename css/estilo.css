@@ -1,6 +1,9 @@
 .espacio1{
     height: 30px;
 }
+.margenTop{
+    top: 350px;
+}
 #menu{
     width:100%;
     height: 200px;
@@ -12,7 +15,6 @@
 .lista li{
     width: 19%;
 }
-
 .links{
     font-family: Lato;
     font-size: 15px;
@@ -38,6 +40,15 @@ a:hover{
 }
 .caja1 ul{
     border-right: 1px silver solid;
+}
+.enlaceCentro{
+     margin-top: 40px;
+     list-style: none;
+     font-weight: bold;
+     color:white; 
+}
+.enlaceCentro:hover{
+   color:#767676;
 }
 .enlaces{
     list-style: none;
@@ -111,4 +122,8 @@ video{
 }
 .cajaBoton{
     padding-left: 0px;
+}
+//barra debajo del video
+.derecha{
+    margin-right: 20px;
 }
