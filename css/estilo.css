@@ -46,13 +46,13 @@ a:hover{
     border-right: 1px silver solid;
 }
 .enlaceCentro{
-     margin-top: 40px;
-     list-style: none;
-     font-weight: bold;
-     color:white; 
+    margin-top: 40px;
+    list-style: none;
+    font-weight: bold;
+    color:white; 
 }
 .enlaceCentro:hover{
-   color:#767676;
+    color:#767676;
 }
 .enlaces{
     list-style: none;
@@ -137,12 +137,29 @@ video{
 #flechaAbajo{
     cursor:pointer;
 }
+.icono{
+    color:#333333;
+}
 //entre texto foto iphone
+.row > .letrasMovil
+{
+    display: inline-block !important;
+    border: solid 1px red;
+    vertical-align: middle;
+}
 #foto{
     height: 250px;
     width: 300px;
 }
- 
+.letrasMovil p{
+    color: #777777;
+    font-size: 1.071rem;
+    line-height: 1.5em;
+    margin: 0;
+    padding-bottom: 14px;
+    padding-top: 4px;
+}
+
 #azul{
     background-color:  #019CDE;
     padding: 15px;
@@ -154,9 +171,9 @@ video{
     
 }
 #azul a{
-   color:white;
-   font-weight: bold;
-   text-decoration: none;
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
 
 }
 #azul>div{
@@ -179,12 +196,14 @@ video{
     color:white;
     font-family:  'Source Sans Pro';
     letter-spacing: 0.4px;
+
     opacity: 0.7;
 }
 .imagenFondoA a{
    color:white;
    font-weight: bold;
    text-decoration: none;
+
 
 }
 .primero{
@@ -212,7 +231,9 @@ video{
 }
 .imagenFondoB>div{
     margin-top: 13%;
+
     margin-bottom: 13%;
     /*margin-left: 7%;*/
     opacity: 1.7;
+
 }
