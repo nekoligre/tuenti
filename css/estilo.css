@@ -13,7 +13,7 @@
     width: 15%;
 }
 .lista li b{
-   color:#019CDE;
+    color:#019CDE;
 }
 a:hover{
     text-decoration:none;
@@ -23,7 +23,7 @@ a:hover{
     padding-left: 50px;
     letter-spacing: 2px;
     font-size: 13px;
-    
+
 }
 .caja1 ul{
     border-right: 1px silver solid;
@@ -34,14 +34,41 @@ a:hover{
 }
 .enlaces a{
     color: white;
-    
 }
 .enlaces a:hover{
     text-decoration: underline;
 }
-.video{
-    z-index: -1;
-    opacity: 0.7;
+.absoluto{
+    position:absolute;
+}
+h1{
+    text-shadow: 0 0 160px #000000;
+    color:#FFFFFF;
+    font-size: 4.28571rem;
+    line-height: 1.66667em;
+    letter-spacing: 0.02em;
+    font-weight: 300;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.btn {
+    background: none repeat scroll 0 0 #019CDE;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.07143rem;
+    font-weight: bold;
+    line-height: 1.4545em;
+    margin-bottom: 0;
+    padding: 9px 15px 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+.btn a{
+    color: #E6E6E6;
+    padding:100px;
 }
 video{
     width: 100%;
