@@ -153,9 +153,9 @@ $(document).ready(function() {
 });
     $('#flechaAbajo').click(function(){
         
-        var p = $( "#azul" );
+        var p = $( "#altura" );
         var position = p.position();
         
-      $('html, body').animate({scrollTop: position.top },2000);
+      $('html, body').animate({scrollTop: position.top },1000);
     });
 });
