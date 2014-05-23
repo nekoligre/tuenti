@@ -164,3 +164,24 @@ video{
 
 
 }
+
+.imagenFondo{
+    background-image: url('../img/fondoA.jpg');
+    padding-left:100px;
+    padding:15px;
+    color:white;
+    font-family:  'Source Sans Pro';
+    letter-spacing: 0.4px;
+  
+}
+.imagenFondo a{
+   color:white;
+   font-weight: bold;
+   text-decoration: none;
+
+}
+.imagenFondo>div{
+    margin-top: 13%;
+    margin-bottom: 5%%;
+    margin-left: 8%;
+}
