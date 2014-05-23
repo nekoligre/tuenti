@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Pruebas</title>
         <meta charset="UTF-8">
 
         <!-- JQUERY -->
@@ -12,45 +12,58 @@
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        
         <!--  Estilos -->
         <link href="css/estilo.css" rel="stylesheet" />
+        
+        <script src="js/index.js"></script>
     </head>
     <body>
-        <div class="container">
+        <div class="container1">
             <header>
                 <div class="espacio1"></div>
                 <div class="row">
-
+                    <div class="col-lg-1 col-md-1 col-xs-12"></div>
                     <!--Logo-->
                     <div class="col-lg-1 col-md-1 col-xs-12">
-                        <a class="img-logo" href="#">Logo</a>
+                        <a class="img-logo" href="#"><img src="img/logo.png" class="img-responsive"></a>
                     </div>
+                    
                     <!--Menu navegacion-->
-                    <div class="col-lg-8 col-md-8 col-xs-12">
+                    <div class="col-lg-7 col-md-7 col-xs-12">
                         
                         <ul class="list-inline lista">
-                            <li><!--Primer Link-->
-                                <a id="uno" href="#">Primer Link<span>&nbsp;&nbsp;</span><b class="caret"></b></a>
+                           <!--Primer Link-->
+                            <li>
+                               <a id="uno" href="#">Primer Link<span>&nbsp;&nbsp;</span><b class="caret"></b></a>
                             </li>
-                            <li><!--Segundo Link-->
+                            
+                            <!--Segundo Link-->
+                            <li>
                                 <a id="dos" href="#">Segundo Link<span>&nbsp;&nbsp;</span><b class="caret"></b></a>
                             </li>
-                            <li><!--Tercer Link-->
+                            
+                            <!--Tercer Link-->
+                            <li>
                                 <a id="tres" href="#">Tercer Link<span>&nbsp;&nbsp;</span><b class="caret"></b></a>
                             </li>
-                            <li><!--Cuarto Link-->
+                            
+                            <!--Cuarto Link-->
+                            <li>
                                 <a id="cuatro" href="#">Cuarto Link<span>&nbsp;&nbsp;</span><b class="caret"></b></a>
                             </li>
                         </ul>
                             
                     </div>
-                    <div class="col-lg-3 col-md-3 col-xs-12"><!--Botones Entrar/Registro-->
+                    
+                    <!--Botones Entrar/Registro-->
+                    <div class="col-lg-3 col-md-3 col-xs-12">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-xs-6 text-right">
-                                <button type="button" class="btn btn-default btn-sm">Entrar</button>
+                                <button type="button" class="btn btn-default btn-sm botonEn">Entrar</button>
                             </div>
                             <div class="col-lg-6 col-md-6 col-xs-6">
-                                <button type="button" class="btn btn-default btn-sm">Crear Cuenta</button>
+                                <button type="button" class="btn btn-default btn-sm botonCr">Crear Cuenta</button>
                             </div>
                         </div>
                     </div>
@@ -65,8 +78,8 @@
                 </div>
             </div>
         </div>
-        <div>
-            <video muted="muted" autoplay="autoplay" loop="loop" style="width: 1349px; height:700px;">
+        <div class="video">
+            <video muted="muted" autoplay="autoplay" loop="loop" style=" height:500px;" >
                 <source src="vid/videoPrueba.mp4" type="video/mp4">
             </video> 
         </div>

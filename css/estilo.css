@@ -10,16 +10,10 @@
     background-color:#019CDE;
 }
 .lista li{
-    width: 20%;
+    width: 15%;
 }
 .lista li b{
    color:#019CDE;
-}
-.hola a{
-    font-size: 10px;
-    font-weight: bold;
-    color:white;
-    font-family: verdana;
 }
 a:hover{
     text-decoration:none;
@@ -28,7 +22,7 @@ a:hover{
     padding-top: 50px;
     padding-left: 50px;
     letter-spacing: 2px;
-    font-size: 15px;
+    font-size: 13px;
     
 }
 .caja1 ul{
@@ -44,4 +38,13 @@ a:hover{
 }
 .enlaces a:hover{
     text-decoration: underline;
+}
+.video{
+    z-index: -1;
+}
+.botonEn{
+    background-color: silver;
+}
+.botonCr{
+    background-color: #019CDE;
 }
