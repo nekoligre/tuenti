@@ -137,12 +137,15 @@ video{
     color:#333333;
 }
 //entre texto foto iphone
+.row > .letrasMovil
+{
+    display: inline-block !important;
+    border: solid 1px red;
+    vertical-align: middle;
+}
 #foto{
     height: 250px;
     width: 300px;
-}
-.letrasMovil{
-    vertical-align: middle;
 }
 .letrasMovil p{
     color: #777777;
@@ -186,12 +189,12 @@ video{
     color:white;
     font-family:  'Source Sans Pro';
     letter-spacing: 0.4px;
-  
+
 }
 .imagenFondo a{
-   color:white;
-   font-weight: bold;
-   text-decoration: none;
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
 
 }
 .imagenFondo>div{
