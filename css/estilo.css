@@ -152,4 +152,15 @@ video{
    color:white;
    font-weight: bold;
    text-decoration: none;
+
+}
+
+//barra debajo del video
+.derecha{
+    margin-right: 20px;
+}
+.cajaIconosMedio{
+    border-bottom: 1px silver solid;
+
+
 }
