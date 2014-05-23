@@ -4,7 +4,7 @@ body{
     font-size: 15px;
 }
 .espacio1{
-    height: 30px;
+    margin-top: 30px;
 }
 .margenTop{
     top: 350px;
@@ -218,6 +218,22 @@ video{
 }
 .imagenFondo>div{
     margin-top: 13%;
+
     margin-bottom: 7%;
     padding-right: 5%;
+
+}
+#cajaGris{
+    height:300px;
+    background-color: #F5F5F5;
+}
+#casiFondo{
+ margin-top: 7%;   
+}
+.footer{
+    border-bottom: 1px silver solid;
+}
+.listaUltima{
+    color:grey;
+
 }
