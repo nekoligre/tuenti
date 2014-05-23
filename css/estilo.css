@@ -10,10 +10,21 @@
     background-color:#019CDE;
 }
 .lista li{
-    width: 15%;
+    width: 19%;
 }
-.lista li b{
+
+.links{
+    font-family: Lato;
+    font-size: 15px;
+    color:grey;
+}
+.links:hover,
+.links:focus,
+.lista li:focus{
     color:#019CDE;
+    text-decoration: none;
+    -moz-border-style:none;
+
 }
 a:hover{
     text-decoration:none;
@@ -75,8 +86,29 @@ video{
     height:100%;
 }
 .botonEn{
-    background-color: silver;
+    background: #EBEBEB;
+    border-radius: 5px;
+    text-shadow: none;
+    color:black;
+    font-size: 0.8em;
+    font-weight: bold;
+    box-shadow: none;
+    border:none;
+    padding-top: 8px;
+    padding-bottom:  8px;
 }
 .botonCr{
-    background-color: #019CDE;
+    background: #019CDE;
+    border-radius: 5px;
+    text-shadow: none;
+    color:white;
+    font-size: 0.8em;
+    font-weight: bold;
+    box-shadow: none;
+    border:none;
+    padding-top: 8px;
+    padding-bottom:  8px;
+}
+.cajaBoton{
+    padding-left: 0px;
 }
