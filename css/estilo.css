@@ -130,8 +130,16 @@ video{
 .cajaIconosMedio{
     border-bottom: 1px silver solid;
 }
-//texto azul 
-.azul{
+#flechaAbajo{
+    cursor:pointer;
+}
+//entre texto foto iphone
+#foto{
+    height: 250px;
+    width: 300px;
+}
+ 
+#azul{
     background-color:  #019CDE;
     padding: 15px;
     padding-left: 100px;
@@ -140,7 +148,7 @@ video{
     font-family:  'Source Sans Pro';
     letter-spacing: 0.4px;
 }
-.azul a{
+#azul a{
    color:white;
    font-weight: bold;
    text-decoration: none;

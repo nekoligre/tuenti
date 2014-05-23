@@ -151,4 +151,11 @@ $(document).ready(function() {
         }
       
 });
+    $('#flechaAbajo').click(function(){
+        
+        var p = $( "#azul" );
+        var position = p.position();
+        
+      $('html, body').animate({scrollTop: position.top },2000);
+    });
 });
