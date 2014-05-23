@@ -9,14 +9,11 @@
     border:2px solid silver;
     background-color:#019CDE;
 }
-.lista li{
-    width: 19%;
-}
 
 .links{
-    font-family: Lato;
-    font-size: 15px;
-    color:grey;
+    font-family: 'Source Sans Pro';
+    font-size: 17px;
+    color:#444444;
 }
 .links:hover,
 .links:focus,
@@ -36,7 +33,7 @@ a:hover{
     font-size: 13px;
 
 }
-.caja1 ul{
+.caja1 .row{
     border-right: 1px silver solid;
 }
 .enlaces{
@@ -111,4 +108,18 @@ video{
 }
 .cajaBoton{
     padding-left: 0px;
+}
+.azul{
+    background-color:  #019CDE;
+    padding: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color:white;
+    font-family:  'Source Sans Pro';
+    letter-spacing: 0.4px;
+}
+.azul a{
+   color:white;
+   font-weight: bold;
+   text-decoration: none;
 }
