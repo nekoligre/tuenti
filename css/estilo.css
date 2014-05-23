@@ -234,3 +234,7 @@ video{
     opacity: 1.7;
 
 }
+#cajaGris{
+    height:300px;
+    background-color: #F5F5F5;
+}
