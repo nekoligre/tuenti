@@ -9,6 +9,12 @@
     border:2px solid silver;
     background-color:#019CDE;
 }
+.lista li{
+    width: 20%;
+}
+.lista li b{
+   color:#019CDE;
+}
 .hola a{
     font-size: 10px;
     font-weight: bold;
@@ -17,4 +23,25 @@
 }
 a:hover{
     text-decoration:none;
+}
+.cajaEnlaces{
+    padding-top: 50px;
+    padding-left: 50px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    
+}
+.caja1 ul{
+    border-right: 1px silver solid;
+}
+.enlaces{
+    list-style: none;
+    padding: 10px;
+}
+.enlaces a{
+    color: white;
+    
+}
+.enlaces a:hover{
+    text-decoration: underline;
 }

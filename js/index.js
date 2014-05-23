@@ -1,46 +1,160 @@
 $(document).ready(function() {
+ $('#rowMenu').append("<div id='enlaces1' class='col-lg-2 col-md-2 col-xs-2'></div>\
+                                <div class='col-lg-4 col-md-4 col-xs-4 cajaEnlaces caja1 text-center'>\
+                                     <ul>\
+                                         <li class='enlaces'><a href='#'>Atletico de madrid</a></li>\
+                                         <li class='enlaces'><a href='#'>Barcelona</a></li>\
+                                     </ul>\
+                                 </div>\
+                                 <div class='col-lg-4 col-md-4 col-xs-4 cajaEnlaces text-center' >\
+                                     <ul>\
+                                            <li class='enlaces'><a href='#'>Atletico de madrid</a></li>\
+                                            <li class='enlaces'><a href='#'>Barcelona</a></li>\
+                                     </ul>\
+                                 </div>\
+                                 <div class='col-lg-2 col-md-2 col-xs-2'></div>\
+                                 ");
     //PRIMER ENLACE
     $('#uno').click(function() {
-        $('#menu').append("<div class='container'>\
-                                <div class='col-lg-6 col-md-6 col-xs-6 hola text-center'>\
-                                     <ul>\
-                                         <li><a href='#'>Atletico de madrid</a></li>\
-                                         <li><a href='#'>Barcelona</a></li>\
-                                     </ul>\
-                                 </div>\
-                                 <div class='col-lg-6 col-md-6 col-xs-6 hola text-center'>\
-                                     <ul>\
-                                            <li><a href='#'>Atletico de madrid</a></li>\
-                                            <li><a href='#'>Barcelona</a></li>\
-                                     </ul>\
-                                 </div>\
-                            </div> ");
-        $('#menu').slideToggle();
-    });
-    $("#uno a").click(function(event) {
-        event.preventDefault();
-        $('#menu').slideUp();
-    });
-    //SEGUNDO ENLACE
-     $('#dos').click(function() {
         
-        $('#menu').slideToggle();
+//       $('#rowMenu').append("<div id='enlaces1' class='col-lg-2 col-md-2 col-xs-2'></div>\
+//                                <div class='col-lg-4 col-md-4 col-xs-4 cajaEnlaces caja1 text-center'>\
+//                                     <ul>\
+//                                         <li class='enlaces'><a href='#'>Atletico de madrid</a></li>\
+//                                         <li class='enlaces'><a href='#'>Barcelona</a></li>\
+//                                     </ul>\
+//                                 </div>\
+//                                 <div class='col-lg-4 col-md-4 col-xs-4 cajaEnlaces text-center' >\
+//                                     <ul>\
+//                                            <li class='enlaces'><a href='#'>Atletico de madrid</a></li>\
+//                                            <li class='enlaces'><a href='#'>Barcelona</a></li>\
+//                                     </ul>\
+//                                 </div>\
+//                                 <div class='col-lg-2 col-md-2 col-xs-2'></div>\
+//                                 ");
+        
+        
+
+        if (!$('#menu').is(":visible")) {
+            $('#menu').slideToggle();
+
+        } else if($( "#rowMenu" ).children().attr('id')=='enlaces1'){
+            $('#menu').slideUp();
+        }else{
+            $('#rowMenu').empty();
+            $('#rowMenu').append("<div id='enlaces1' class='col-lg-2 col-md-2 col-xs-2'></div>\
+                                <div class='col-lg-4 col-md-4 col-xs-4 cajaEnlaces caja1 text-center'>\
+                                     <ul>\
+                                         <li class='enlaces'><a href='#'>Atletico de madrid</a></li>\
+                                         <li class='enlaces'><a href='#'>Barcelona</a></li>\
+                                     </ul>\
+                                 </div>\
+                                 <div class='col-lg-4 col-md-4 col-xs-4 cajaEnlaces text-center' >\
+                                     <ul>\
+                                            <li class='enlaces'><a href='#'>Atletico de madrid</a></li>\
+                                            <li class='enlaces'><a href='#'>Barcelona</a></li>\
+                                     </ul>\
+                                 </div>\
+                                 <div class='col-lg-2 col-md-2 col-xs-2'></div>\
+                                 ");
+        }
+        
+
+
     });
-    $("#dos a").click(function(event) {
-        event.preventDefault();
-        $('#menu').slideUp();
+
+
+    //SEGUNDO ENLACE
+    $('#dos').click(function() {
+       
+//             $('#rowMenu').append("<div id='enlaces2' class='col-lg-2 col-md-2 col-xs-2'></div>\
+//                                <div class='col-lg-4 col-md-4 col-xs-4 cajaEnlaces caja1 text-center'>\
+//                                     <ul>\
+//                                         <li class='enlaces'><a href='#'>Enlace 2.1</a></li>\
+//                                         <li class='enlaces'><a href='#'>Enlace 2.2</a></li>\
+//                                     </ul>\
+//                                 </div>\
+//                                 <div class='col-lg-4 col-md-4 col-xs-4 cajaEnlaces text-center' >\
+//                                     <ul>\
+//                                            <li class='enlaces'><a href='#'>Enlace 2.3</a></li>\
+//                                            <li class='enlaces'><a href='#'>Enlace 2.4</a></li>\
+//                                     </ul>\
+//                                 </div>\
+//                                 <div class='col-lg-2 col-md-2 col-xs-2'></div>\
+//                                 ");
+        
+        
+
+        if (!$('#menu').is(":visible")) {
+            $('#menu').slideToggle();
+
+        } else if($( "#rowMenu" ).children().attr('id')=='enlaces2'){
+            $('#menu').slideUp();
+        }else{
+            $('#rowMenu').empty();
+            $('#rowMenu').append("<div id='enlaces2' class='col-lg-2 col-md-2 col-xs-2'></div>\
+                                <div class='col-lg-4 col-md-4 col-xs-4 cajaEnlaces caja1 text-center'>\
+                                     <ul>\
+                                         <li class='enlaces'><a href='#'>Enlace 2.1</a></li>\
+                                         <li class='enlaces'><a href='#'>Enlace 2.2</a></li>\
+                                     </ul>\
+                                 </div>\
+                                 <div class='col-lg-4 col-md-4 col-xs-4 cajaEnlaces text-center' >\
+                                     <ul>\
+                                            <li class='enlaces'><a href='#'>Enlace 2.3</a></li>\
+                                            <li class='enlaces'><a href='#'>Enlace 2.4</a></li>\
+                                     </ul>\
+                                 </div>\
+                                 <div class='col-lg-2 col-md-2 col-xs-2'></div>\
+                                 ");
+        }
+        
+
     });
+    //TERCER ENLACE
     
-})
+    $('#tres').click(function() {
+         //$('#rowMenu').append( "<div id='enlaces3' class='col-lg-2 col-md-2 col-xs-2'></div>\
+//                                <div class='col-lg-4 col-md-4 col-xs-4 cajaEnlaces caja1 text-center'>\
+//                                     <ul>\
+//                                         <li class='enlaces'><a href='#'>Enlace 3.1</a></li>\
+//                                         <li class='enlaces'><a href='#'>Enlace 3.2</a></li>\
+//                                     </ul>\
+//                                 </div>\
+//                                 <div class='col-lg-4 col-md-4 col-xs-4 cajaEnlaces text-center' >\
+//                                     <ul>\
+//                                            <li class='enlaces'><a href='#'>Enlace 3.3</a></li>\
+//                                            <li class='enlaces'><a href='#'>Enlace 3.4</a></li>\
+//                                     </ul>\
+//                                 </div>\
+//                                 <div class='col-lg-2 col-md-2 col-xs-2'></div>\
+//                                 ");
+        
+        
 
+        if (!$('#menu').is(":visible")) {
+            $('#menu').slideToggle();
 
-"<div class='container'>"        
-            "<div class='col-lg-6 col-md-6 col-xs-6 text-right'>"
-                "<a href='#'>Atletico de madrid</a>"
-                "<a href='#'>Barcelona</a>"
-            "</div>"
-            "<div class='col-lg-6 col-md-6 col-xs-6 text-right'>"
-                "<a href='#'>Atletico de madrid</a>"
-                "<a href='#'>Barcelona</a>"
-            "</div>"
-        "</div>"
+        } else if($( "#rowMenu" ).children().attr('id')=='enlaces2'){
+            $('#menu').slideUp();
+        }else{
+            $('#rowMenu').empty();
+            $('#rowMenu').append( "<div id='enlaces3' class='col-lg-2 col-md-2 col-xs-2'></div>\
+                                <div class='col-lg-4 col-md-4 col-xs-4 cajaEnlaces caja1 text-center'>\
+                                     <ul>\
+                                         <li class='enlaces'><a href='#'>Enlace 3.1</a></li>\
+                                         <li class='enlaces'><a href='#'>Enlace 3.2</a></li>\
+                                     </ul>\
+                                 </div>\
+                                 <div class='col-lg-4 col-md-4 col-xs-4 cajaEnlaces text-center' >\
+                                     <ul>\
+                                            <li class='enlaces'><a href='#'>Enlace 3.3</a></li>\
+                                            <li class='enlaces'><a href='#'>Enlace 3.4</a></li>\
+                                     </ul>\
+                                 </div>\
+                                 <div class='col-lg-2 col-md-2 col-xs-2'></div>\
+                                 ");
+        }
+      
+});
+});
