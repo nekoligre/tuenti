@@ -1,6 +1,9 @@
 .espacio1{
     height: 30px;
 }
+.margenTop{
+    top: 350px;
+}
 #menu{
     width:100%;
     height: 200px;
@@ -35,6 +38,15 @@ a:hover{
 }
 .caja1 .row{
     border-right: 1px silver solid;
+}
+.enlaceCentro{
+     margin-top: 40px;
+     list-style: none;
+     font-weight: bold;
+     color:white; 
+}
+.enlaceCentro:hover{
+   color:#767676;
 }
 .enlaces{
     list-style: none;
@@ -109,6 +121,8 @@ video{
 .cajaBoton{
     padding-left: 0px;
 }
+
+//Caja azul
 .azul{
     background-color:  #019CDE;
     padding: 15px;
@@ -122,4 +136,12 @@ video{
    color:white;
    font-weight: bold;
    text-decoration: none;
+
+//barra debajo del video
+.derecha{
+    margin-right: 20px;
+}
+.cajaIconosMedio{
+    border-bottom: 1px silver solid;
+
 }
