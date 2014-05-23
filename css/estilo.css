@@ -198,7 +198,7 @@ video{
 
 .imagenFondoB{
     background-image: url('../img/fondoB.jpg');
-    padding-left:100px;
+    padding-right:100px;
     color:white;
     font-family:  'Source Sans Pro';
     letter-spacing: 0.4px;
@@ -212,6 +212,7 @@ video{
 }
 .imagenFondoB>div{
     margin-top: 13%;
-    margin-left: 7%;
+    margin-bottom: 13%;
+    /*margin-left: 7%;*/
     opacity: 1.7;
 }
