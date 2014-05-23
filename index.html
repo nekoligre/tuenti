@@ -15,7 +15,8 @@
 
         <!--  Estilos -->
         <link href="css/estilo.css" rel="stylesheet" />
-        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
         <script src="js/index.js"></script>
     </head>
@@ -24,42 +25,36 @@
             <header>
                 <div class="espacio1"></div>
                 <div class="row">
-                    <div class="col-lg-1 col-md-1 hidden-xs"></div>
-                    
+                    <div class="col-lg-1 col-md-1 col-xs-12"></div>
                     <!--Logo-->
-                    <div class="col-lg-1 col-md-1 col-xs-2">
+                    <div class="col-lg-1 col-md-1 col-xs-12">
                         <a class="img-logo" href="#"><img src="img/logo.png" class="img-responsive"></a>
                     </div>
 
                     <!--Menu navegacion-->
-                    <div class="col-lg-6 col-md-6 col-xs-10">
+                    <div class="col-lg-6 col-md-6 col-xs-12">
 
-                        <div class="row">
+                        <ul class="list-inline lista">
                             <!--Primer Link-->
-                            <div class="col-lg-2 col-md-3 col-xs-3"> 
-
-                                <a id="uno" class="links" href="#">Primero<span>&nbsp;&nbsp;</span><b class="caret"></b></a>
-                            </div>
+                            <li>
+                                <a id="uno" class="links" href="#">Primer Link<span>&nbsp;&nbsp;</span><b class="caret"></b></a>
+                            </li>
 
                             <!--Segundo Link-->
-                            <div class="col-lg-2 col-md-3 col-xs-3"> 
-
-                                <a id="dos"  class="links" href="#">Segundo<span>&nbsp;&nbsp;</span><b class="caret"></b></a>
-                            </div>
+                            <li>
+                                <a id="dos"  class="links" href="#">Segundo Link<span>&nbsp;&nbsp;</span><b class="caret"></b></a>
+                            </li>
 
                             <!--Tercer Link-->
-                            <div class="col-lg-2 col-md-3 col-xs-3"> 
-
-                                <a id="tres"  class="links" href="#">Tercero<span>&nbsp;&nbsp;</span><b class="caret"></b></a>
-                            </div>
+                            <li>
+                                <a id="tres"  class="links" href="#">Tercer Link<span>&nbsp;&nbsp;</span><b class="caret"></b></a>
+                            </li>
 
                             <!--Cuarto Link-->
-                            <div class="col-lg-6 col-md-3 col-xs-3 text-left">
-
-                                <a id="cuatro"  class="links" href="#">Cuarto<span>&nbsp;&nbsp;</span><b class="caret"></b></a>
-                            </div>
-                        </div>
-
+                            <li>
+                                <a id="cuatro"  class="links" href="#">Cuarto Link<span>&nbsp;&nbsp;</span><b class="caret"></b></a>
+                            </li>
+                        </ul>
 
                     </div>
 
@@ -86,20 +81,39 @@
             </div>
         </div>
         <div class="video">
-
-            <div class="text-center absoluto">
-                <h1>Todo empieza Aquí !!!</h1>
-                <p>
-                    <a class="btn btn-large" href="#">Crear cuenta gratis</a>
-                </p>
-                <p>
-                    <a href="#">¿Forma parte de nuestro equipo?</a>
-                </p>
+            <div class="row">
+                <div class="hidden-xs hidden-sm hidden-md col-lg-12 absoluto margenTop">
+                    <div class="text-center ">
+                        <h1>Todo empieza Aquí !!!</h1>
+                        <p>
+                            <a class="btn btn-large" href="#">Crear cuenta gratis</a>
+                        </p>
+                        <p>
+                            <a class="enlaceCentro" href="#">¿Forma parte de nuestro equipo?</a>
+                        </p>
+                    </div>
+                </div>             
             </div>
-            <video muted="muted" autoplay="autoplay" loop="loop" >
-                <source src="vid/video.mp4" type="video/mp4">
-
-            </video> 
+        </div>
+        <video muted="muted" autoplay="autoplay" loop="loop">
+            <source src="vid/video.mp4" type="video/mp4">
+        </video>
+        <div class="row">     
+            <div class="row cajaIconosMedio">
+                <div class="col-xs-4 col-md-4 col-lg-4 text-center">
+                    <ul class="list-inline">
+                        <li><a><i class="fa fa-question  fa-2x"></i></a></li>
+                        <li><a> <i class="fa fa-phone  fa-2x"></i></a></li>
+                        <li><a><i class="fa fa-search  fa-2x"></i></a></li>
+                    </ul> 
+                </div>
+                <div class="col-xs-4 col-md-4 col-lg-4 text-center">
+                    <i class="fa fa-chevron-circle-down fa-4x"></i>
+                </div>
+                <div class="col-xs-4 col-md-4 col-lg-4 text-right derecha">
+                    <img src="img/espana.png">
+                </div>
+            </div>
         </div>
         <div class="row azul">
             <div class="col-xs-12 col-md-6 col-lg-6">
@@ -108,7 +122,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut rutrum velit, ut iaculis magna. Sed iaculis tincidunt porttitor. Vestibulum mattis felis id magna pharetra blandit. Sed eget suscipit lacus, ac congue purus.  
                 </p><br/>
                 <a href="#">Enlace texto 1.</a>
-                
+
             </div>
             <div class="col-xs-12 col-md-6 col-lg-6">
                 <h2>Lorem ipsum dolor sit amet.</h2>
