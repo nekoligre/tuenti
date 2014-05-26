@@ -1,7 +1,7 @@
-body{
-    font-family:  'Source Sans Pro';
-    letter-spacing: 0.4px;
-    font-size: 15px;
+#cajaGris .btn,
+.video a{
+    width: 350px;
+    font-size: 20px;
 }
 .espacio1{
     margin-top: 30px;
@@ -141,25 +141,7 @@ video{
 .icono{
     color:#333333;
 }
-//entre texto foto iphone
-.row > .letrasMovil
-{
-    display: inline-block !important;
-    border: solid 1px red;
-    vertical-align: middle;
-}
-#foto{
-    height: 250px;
-    width: 300px;
-}
-.letrasMovil p{
-    color: #777777;
-    font-size: 1.071rem;
-    line-height: 1.5em;
-    margin: 0;
-    padding-bottom: 14px;
-    padding-top: 4px;
-}
+
 
 #azul{
     background-color:  #019CDE;
@@ -196,9 +178,11 @@ video{
 }
 .A{
     background-image: url('../img/fondoA.jpg');
+    background-repeat: no-repeat;
 }
 .B{
     background-image: url('../img/fondoB.jpg');
+    background-repeat: no-repeat;
 }
 .imagenFondo{
     /*padding-left:70px;*/
@@ -226,6 +210,10 @@ video{
 #cajaGris{
     height:300px;
     background-color: #F5F5F5;
+}
+#cajaGris h2{
+     font-family:  'Source Sans Pro';
+    letter-spacing: 0.4px;
 }
 #casiFondo{
  margin-top: 7%;   
