@@ -1,4 +1,9 @@
 $(document).ready(function() {
+    
+    swfobject.embedSWF(swfUrlStr, replaceElemIdStr, widthStr, heightStr, swfVersionStr, xiSwfUrlStr, flashvarsObj, parObj, attObj);
+    
+    
+    
  $('#rowMenu').append("<div id='enlaces1' class='col-lg-2 col-md-2 hidden-xs'></div>\
                                 <div class='col-lg-4 col-md-4 col-xs-6 cajaEnlaces caja1 text-center'>\
                                      <div class='row'>\
@@ -158,4 +163,7 @@ $(document).ready(function() {
         
       $('html, body').animate({scrollTop: position.top },1000);
     });
+    
+ 
+    
 });
