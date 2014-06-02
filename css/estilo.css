@@ -100,7 +100,7 @@ h1{
     color: #E6E6E6;
     padding:100px;
 }
-.video{
+video{
     width: 100%;
     height:100%;
 }
@@ -203,8 +203,8 @@ h1{
 .primero{
     border-right: 1px solid silver;
 }
-.imagenFondo>.texto{
-    margin-top: 10%;
+.imagenFondo>div{
+    margin-top: 13%;
 
     margin-bottom: 7%;
     padding-right: 5%;
