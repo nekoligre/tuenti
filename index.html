@@ -3,92 +3,78 @@
     <head>
         <title>Pruebas</title>
         <meta charset="UTF-8">
-
         <!-- JQUERY -->
         <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
         <!-- bootstrap -->
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
         <!--  Estilos -->
         <link href="css/estilo.css" rel="stylesheet" />
         <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
+        <!-- Script javascript  -->
         <script src="js/index.js"></script>
     </head>
     <body>
-        
-            <header>
-                <div class="espacio1"></div>
-                
-           <!--  Cabecera  -->   
-                <div class="row">
-                    <div class="col-lg-1 col-md-1 col-xs-12"></div>
-                    <!--Logo-->
-                    <div class="col-lg-1 col-md-1 col-xs-12">
-                        <a class="img-logo" href="#"><img src="img/logo.png" class="img-responsive"></a>
-                    </div>
-
-                    <!--Menu navegacion-->
-                    <div class="col-lg-6 col-md-6 col-xs-12">
-
-                        <div class="row">
-                            <!--Primer Link-->
-                            <div class="col-lg-2 col-md-3 col-xs-3">
-
-                                <a id="uno" class="links" href="#">Primero<span>&nbsp;&nbsp;</span><b class="caret"></b></a>
-                            </div>
-
-                            <!--Segundo Link-->
-                            <div class="col-lg-2 col-md-3 col-xs-3">
-
-                                <a id="dos" class="links" href="#">Segundo<span>&nbsp;&nbsp;</span><b class="caret"></b></a>
-                            </div>
-
-                            <!--Tercer Link-->
-                            <div class="col-lg-2 col-md-3 col-xs-3">
-
-                                <a id="tres" class="links" href="#">Tercero<span>&nbsp;&nbsp;</span><b class="caret"></b></a>
-                            </div>
-
-                            <!--Cuarto Link-->
-                            <div class="col-lg-6 col-md-3 col-xs-3 text-left">
-
-                                <a id="cuatro" class="links" href="#">Cuarto<span>&nbsp;&nbsp;</span></a>
-                            </div>
+        <!-- Cabecera  -->
+        <header>
+            <div class="espacio1"></div>                  
+            <div class="row">
+                <div class="col-lg-1 col-md-1 col-xs-12"></div>
+                <!--Logo-->
+                <div class="col-lg-1 col-md-1 col-xs-12">
+                    <a class="img-logo" href="#"><img src="img/logo.png" class="img-responsive"></a>
+                </div>
+                <!--Menu navegacion-->
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="row">
+                        <!--Primer Link-->
+                        <div class="col-lg-2 col-md-3 col-xs-3">
+                            <a id="uno" class="links" href="#">Primero<span>&nbsp;&nbsp;</span><b class="caret"></b></a>
                         </div>
-                    </div>
-                    <!--Botones Entrar/Registro-->
-                    <div class="col-lg-4 col-md-4 col-xs-12">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-xs-6 text-right">
-                                <button type="button" class="btn btn-default btn-sm botonEn">Entrar</button>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-xs-6 cajaBoton">
-                                <button type="button" class="btn btn-default btn-sm botonCr">Crear Cuenta</button>
-                            </div>
+                        <!--Segundo Link-->
+                        <div class="col-lg-2 col-md-3 col-xs-3">
+                            <a id="dos" class="links" href="#">Segundo<span>&nbsp;&nbsp;</span><b class="caret"></b></a>
+                        </div>
+                        <!--Tercer Link-->
+                        <div class="col-lg-2 col-md-3 col-xs-3">
+                            <a id="tres" class="links" href="#">Tercero<span>&nbsp;&nbsp;</span><b class="caret"></b></a>
+                        </div>
+                        <!--Cuarto Link-->
+                        <div class="col-lg-6 col-md-3 col-xs-3 text-left">
+                            <a id="cuatro" class="links" href="#">Cuarto<span>&nbsp;&nbsp;</span></a>
                         </div>
                     </div>
                 </div>
-                <div class="espacio1"></div>
-            </header>    
-        <!--  /Cabecera/  -->
-        
-        <!--  Menu oculto  -->
-        <div class="row">
-            <div id="menu" class="col-xs-12 col-md-12 col-lg-12 menuDespliega">
-                <div id="rowMenu" class="row">    
+                <!--Botones Entrar/Registro-->
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-xs-6 text-right">
+                            <button type="button" class="btn btn-default btn-sm botonEn">Entrar</button>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-xs-6 cajaBoton">
+                            <button type="button" class="btn btn-default btn-sm botonCr">Crear Cuenta</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!--  /Menu Oculto/  -->
-        
-        <!--  Div Video  -->
+            <div class="espacio1"></div>
+        </header>
+        <!--  Fin Cabecera  -->
+        <!--  Menu -->
+        <nav>
+            <div class="row">
+                <div id="menu" class="col-xs-12 col-md-12 col-lg-12 menuDespliega">
+                    <div id="rowMenu" class="row">    
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--  Fin Menu -->
+        <!-- Video  -->
         <div class="video">
             <div class="row">
                 <div class="hidden-xs hidden-sm hidden-md col-lg-12 absoluto margenTop">
@@ -104,111 +90,120 @@
                 </div>             
             </div>
         </div>
-
-        <div class="row">
-            <iframe width="100%" height="100%" src="//www.youtube.com/embed/taLyzocXLIs?rel=0" frameborder="0" allowfullscreen></iframe>
-           
-                
-               
-                
-            
-            <!-- <video muted="muted" autoplay="autoplay" loop="loop">
+        <video muted="muted" autoplay="autoplay" loop="loop">
             <source src="vid/video.mp4" type="video/mp4">
-            </video>-->
-        </div>
-        <div class="container">
-            <div class="row">     
-                <div id="altura" class="row cajaIconosMedio">
-                    <div class="col-xs-4 col-md-4 col-lg-4 text-center">
-                        <ul class="list-inline">
-                            <li><a><i class="fa fa-question  fa-1x icono"></i></a></li>
-                            <li><a> <i class="fa fa-phone  fa-1x icono"></i></a></li>
-                            <li><a><i class="fa fa-search  fa-1x icono"></i></a></li>
-                        </ul> 
-                    </div>
-                    <div class="col-xs-4 col-md-4 col-lg-4 text-center">
-                        <i id="flechaAbajo" class="fa fa-chevron-circle-down fa-2x icono"></i>
-                    </div>
-                    <div class="col-xs-4 col-md-4 col-lg-4 text-right derecha">
-                        <img  src="img/espana.png">
-                    </div>
-                    <div class="espacio1"></div>
-                </div>
-            </div>
-        </div>
-        <div class="row A imagenFondo">
-            <div class="col-xs-6 col-md-6 col-lg-6"></div>
-            <div class="col-xs-6 col-md-6 col-lg-6">
-                <h2>Rápido y eficaz.</h2>
-                <p>
-                    ¿Por qué hay millones de usuarios que eligen PayPal? Porque es rápido y seguro. Para pagar, solo necesita un correo electrónico y una contraseña. Más fácil que sacar su cartera.   
-                </p><br/>
-                <div class="row">
-                    <div class="hidden-xs col-md-6 col-lg-5 primero text-right">
-                        <a href="#">Pagar en eBay</a>
-                    </div>
-                    <div class="hidden-xs col-md-6 col-lg-5 text-left">
-                        <a href="#">Pagar en sitios web</a>
-                    </div>
-                    <div class="hidden-xs hidden-md col-lg-2"></div>
-                </div>
-
-            </div>
-        </div>
-        <div id="azul" class="row azul">
-            <div class="col-xs-12 col-md-6 col-lg-6">
-                <h2>Lorem ipsum dolor sit amet.</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut rutrum velit, ut iaculis magna. Sed iaculis tincidunt porttitor. Vestibulum mattis felis id magna pharetra blandit. Sed eget suscipit lacus, ac congue purus.  
-                </p><br/>
-                <a href="#">Enlace texto 1.</a>
-
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-6">
-                <h2>Lorem ipsum dolor sit amet.</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut rutrum velit, ut iaculis magna. Sed iaculis tincidunt porttitor. Vestibulum mattis felis id magna pharetra blandit. Sed eget suscipit lacus, ac congue purus. Integer ornare, nisi at dignissim fringilla, risus odio auctor diam, vitae varius neque metus in ipsum. Duis at tellus odio.
-                </p><br/>
-                <a href="#">Enlace texto 2.</a>
-            </div>
-        </div>
-        <div class="row imagenFondo B">
-            <div class="col-xs-6 col-md-6 col-lg-6"></div>
-            <div class="col-xs-6 col-md-6 col-lg-6">
-                <h2>Póngaselo fácil.</h2>
-                <p>
-                    No se complique la vida. Hemos pensado en todo para que pueda recibir pagos con tarjeta de manera sencilla. No tiene que preocuparse, nosotros nos encargamos.  
-                </p><br/>
-                <div class="row">
-                    <div class="hidden-xs col-md-6 col-lg-5 primero text-right">
-                        <a href="#">Recibir pagos en su sitio web</a>
-                    </div>
-                    <div class="hidden-xs col-md-6 col-lg-5 text-left">
-                        <a href="#">Pagos por correo electrónico.</a>
-                    </div>
-                    <div class="hidden-xs hidden-md col-lg-2"></div>
-                </div>
-
-            </div>
-        </div>
-        <!--  /Div Imagen Fondo/  -->
-        
-        <!--  Div Gris  -->
+        </video>
+        <!-- Fin Video  -->
+        <!-- Cuerpo Principal  -->
         <section>
-            <div class="row">
-                <div id="cajaGris" class="col-xs-12 col-md-12 col-lg-12 text-center ">
-                    <div id="casiFondo">
-                        <h2 class="texto2">No se complique.</h2>
-                        <p>
-                            <a class="btn btn-large" href="#">Crear cuenta gratis</a>
-                        </p>
+            
+            <!-- 1º Contenido -->
+            <article>
+                <div class="container">
+                    <div class="row">     
+                        <div id="altura" class="row cajaIconosMedio">
+                            <div class="col-xs-4 col-md-4 col-lg-4 text-center">
+                                <ul class="list-inline">
+                                    <li><a><i class="fa fa-question  fa-1x icono"></i></a></li>
+                                    <li><a> <i class="fa fa-phone  fa-1x icono"></i></a></li>
+                                    <li><a><i class="fa fa-search  fa-1x icono"></i></a></li>
+                                </ul> 
+                            </div>
+                            <div class="col-xs-4 col-md-4 col-lg-4 text-center">
+                                <i id="flechaAbajo" class="fa fa-chevron-circle-down fa-2x icono"></i>
+                            </div>
+                            <div class="col-xs-4 col-md-4 col-lg-4 text-right derecha">
+                                <img  src="img/espana.png">
+                            </div>
+                            <div class="espacio1"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div class="row imagenFondo A">
+                    <div class="col-xs-6 col-md-6 col-lg-6"></div>
+                    <div class="col-xs-6 col-md-6 col-lg-6">
+                        <h2>Rápido y eficaz.</h2>
+                        <p>
+                            ¿Por qué hay millones de usuarios que eligen PayPal? Porque es rápido y seguro. Para pagar, solo necesita un correo electrónico y una contraseña. Más fácil que sacar su cartera.   
+                        </p><br/>
+                        <div class="row">
+                            <div class="hidden-xs col-md-6 col-lg-5 primero text-right">
+                                <a href="#">Pagar en eBay</a>
+                            </div>
+                            <div class="hidden-xs col-md-6 col-lg-5 text-left">
+                                <a href="#">Pagar en sitios web</a>
+                            </div>
+                            <div class="hidden-xs hidden-md col-lg-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- Fin 1º Contenido -->
+            
+            <!-- 2º Contenido -->
+            <article>
+                <div id="azul" class="row azul">
+                    <div class="col-xs-12 col-md-6 col-lg-6">
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut rutrum velit, ut iaculis magna. Sed iaculis tincidunt porttitor. Vestibulum mattis felis id magna pharetra blandit. Sed eget suscipit lacus, ac congue purus.  
+                        </p><br/>
+                        <a href="#">Enlace texto 1.</a>
+
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-6">
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut rutrum velit, ut iaculis magna. Sed iaculis tincidunt porttitor. Vestibulum mattis felis id magna pharetra blandit. Sed eget suscipit lacus, ac congue purus. Integer ornare, nisi at dignissim fringilla, risus odio auctor diam, vitae varius neque metus in ipsum. Duis at tellus odio.
+                        </p><br/>
+                        <a href="#">Enlace texto 2.</a>
+                    </div>
+                </div>
+            </article>
+            <!-- Fin 2º Contenido -->
+            
+            <!-- 3º Contenido --> 
+            <article>
+                <div class="row imagenFondo B">
+                    <div class="col-xs-6 col-md-6 col-lg-6"></div>
+                    <div class="col-xs-6 col-md-6 col-lg-6">
+                        <h2>Póngaselo fácil.</h2>
+                        <p>
+                            No se complique la vida. Hemos pensado en todo para que pueda recibir pagos con tarjeta de manera sencilla. No tiene que preocuparse, nosotros nos encargamos.  
+                        </p><br/>
+                        <div class="row">
+                            <div class="hidden-xs col-md-6 col-lg-5 primero text-right">
+                                <a href="#">Recibir pagos en su sitio web</a>
+                            </div>
+                            <div class="hidden-xs col-md-6 col-lg-5 text-left">
+                                <a href="#">Pagos por correo electrónico.</a>
+                            </div>
+                            <div class="hidden-xs hidden-md col-lg-2"></div>
+                        </div>
+
+                    </div>
+                </div> 
+            </article>
+            <!-- Fin 3º Contenido --> 
+            
+            <!-- 4º Contenido --> 
+            <article>
+                <div class="row">
+                    <div id="cajaGris" class="col-xs-12 col-md-12 col-lg-12 text-center ">
+                        <div id="casiFondo">
+                            <h2 class="texto2">No se complique.</h2>
+                            <p>
+                                <a class="btn btn-large" href="#">Crear cuenta gratis</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- Fin 4º Contenido --> 
+            
         </section>
-        <!--  /Div Gris/  -->
-        
-        <!--  Pie  -->
+        <!--  Fin Cuerpo Principal -->
+        <!--  Footer  -->
         <footer>
             <div class="container">
                 <div class="espacio1"></div>
@@ -236,6 +231,6 @@
                 </div>
             </div>
         </footer>
-        <!--  /Pie/  -->
+        <!-- Fin Footer -->
     </body>
 </html>
