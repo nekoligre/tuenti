@@ -1,2 +1,4 @@
 # tuenti
-Web con la estetica de tuenti
+
+Web con hero image/video
+
